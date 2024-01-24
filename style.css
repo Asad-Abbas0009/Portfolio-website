@@ -1,4 +1,5 @@
 *{
+    font-family: 'Saira Semi Condensed', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +11,39 @@
 }
 
 .container{
-    width: 100%-20px;
+    width: calc(100% - 100px);
     height: auto;
     margin: 0 auto;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo-heading{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.textform{
+    color: #020F2F;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-detail{
+    color: #020F2F;
+    font-size: 1.5rem;
+}
+.link{
+    color: #020F2F;
 }
