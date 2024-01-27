@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Saira+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">   
-
+     
+    <!--favicon-->
+    <link rel="shortcut icon" href="./Images/userAsset/icon.ico">
 </head>
 <body>
     <div class="wrapper">
@@ -40,25 +42,43 @@
                 </ul>
             </nav>
             <!--Hero_Section-->
-            <div class="hero-section">
-                <!---left side-->
-                <div class="left-side">
-                    <div class="left-heaading">
-                        <h2>Hi! Asad Abbas</h2>
-                    </div>
-                    <div class="left-description">
-                        <p>I am a <span class="role"></span></p>
-                    </div>
+            <section class="heroSection">
+                <h3 class="fadedText absolute">Asad Abbas</h3>
+                <div class="infoContainer">
+                  <div class="heading">Hi! Asad Abbas</div>
+                  <div class="heading subHeading">
+                    I am a <span class="role"></span>
+                  </div>
+                  <p class="desc">
+                    I’m a software developer and here is my portfolio website. Here
+                    you’ll learn about my journey as a software developer.
+                  </p>
+                  <div class="btn">Hire Me</div>
                 </div>
-                <!--right side-->
-                <div class="right-side">
-
-                    <!--faded text-->
-                    <div class="faded-text">
-                        <h1>Asad Abbas</h1>
+                <div class="imgContainer">
+                  <div class="absolute icons iconDots">
+                    <img src="./images/userAsset/dots.png" alt="" />
+                  </div>
+                  <div class="absolute icons icon-cube">
+                    <img src="./images/userAsset/cube.png" alt="" />
+                  </div>
+                  <div class="absolute icons icon-circle">
+                    <img src="./images/userAsset/circle.png" alt="" />
+                  </div>
+                  <div class="absolute icons iconZigZag">
+                    <img src="./images/userAsset/zigzags.png" alt="" />
+                  </div>
+                  <div class="absolute icons icon-plus">
+                    <img src="./images/userAsset/plus.png" alt="" />
+                  </div>
+                  <div class="">
+                    <div class="userImage">
+                      <!-- <img src="./images/userAsset/priyansh.jpg" width="345px" height="390px" alt="" /> -->
+                      <img src="#" alt="" />
                     </div>
+                  </div>
                 </div>
-            </div>
+              </section>
         </div>
             <!---project section-->
             <div class="container">
@@ -144,13 +164,16 @@
                 
             </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script>
         var typeData = new Typed(".role", {
           strings: [
-            "Full Stack Developer",
-            "Web Developer",
-            "UI-UX Designer",
-            "Backend Developer",
+            "Full Stack Developer.",
+            "Web Developer.",
+            "UI-UX Designer.",
+            "Backend Developer.",
             "Coder",
           ],
           loop: true,
